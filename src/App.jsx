@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { updatePage, addToPaste, removeFromPaste, resetAllPaste } from './redux/PageSlice'
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Navbar from './components/Navbar';

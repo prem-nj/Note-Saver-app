@@ -1,12 +1,18 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+
 const Navbar = () => {
   return (
-    <div className='text-xl mt-10 flex justify-center items-center'>
+    <div className='text-xl mt-2 justify-center'>
       
+      
+
+    
+
+
       <div>
-        <ul className='flex gap-110  text-amber-50 uppercase'>
+        <ul className='flex gap-110  text-amber-50 uppercase justify-center items-center'>
           
           <li>
             <NavLink to='/' >
